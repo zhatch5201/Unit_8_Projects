@@ -13,7 +13,15 @@
 
 */
 
-
-
 /* Column Styles */
-
+article {
+	column-width: 260px;
+	-moz-column-width: 260px;
+	-webkit-column-width: 260px;
+	column-gap: 20px;
+	-moz-column-gap: 20px;
+	-webkit-column-gap: 20px;
+	widows: 2;
+	orphans: 2;
+	/* 22c */
+}
